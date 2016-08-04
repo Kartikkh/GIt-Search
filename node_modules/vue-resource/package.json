@@ -1,0 +1,73 @@
+{
+  "name": "vue-resource",
+  "version": "0.9.3",
+  "description": "A web request service for Vue.js",
+  "main": "dist/vue-resource.common.js",
+  "jsnext:main": "dist/vue-resource.es2015.js",
+  "scripts": {
+    "test": "webpack --config test/webpack.config.js",
+    "build": "node build/build.js",
+    "release": "node build/release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vue-resource.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "resource",
+    "mvvm"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuejs/vue-resource/issues"
+  },
+  "homepage": "https://github.com/vuejs/vue-resource#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-es2015-loose-rollup": "^7.0.0",
+    "babel-runtime": "^6.9.2",
+    "jasmine-core": "^2.3.4",
+    "replace-in-file": "^1.1.1",
+    "rollup": "^0.33.0",
+    "rollup-plugin-babel": "^2.6.1",
+    "uglify-js": "^2.6.4",
+    "vue": "^1.0.26",
+    "webpack": "^1.13.1"
+  },
+  "gitHead": "995a3cdd354907a389e7a714d9298cdb27b905f3",
+  "_id": "vue-resource@0.9.3",
+  "_shasum": "ab46e1c44ea219142dcc28ae4043b3b04c80959d",
+  "_from": "vue-resource@latest",
+  "_npmVersion": "3.10.2",
+  "_nodeVersion": "4.4.3",
+  "_npmUser": {
+    "name": "steffans",
+    "email": "steffan@schiewe.me"
+  },
+  "dist": {
+    "shasum": "ab46e1c44ea219142dcc28ae4043b3b04c80959d",
+    "tarball": "https://registry.npmjs.org/vue-resource/-/vue-resource-0.9.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "yyx990803",
+      "email": "yyx990803@gmail.com"
+    },
+    {
+      "name": "steffans",
+      "email": "steffan@schiewe.me"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/vue-resource-0.9.3.tgz_1467388462027_0.5803018338046968"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/vue-resource/-/vue-resource-0.9.3.tgz",
+  "readme": "ERROR: No README data found!"
+}

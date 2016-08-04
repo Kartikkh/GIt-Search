@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+</head>
+<body>
+
+
+<h1 style="text-align:center">GitHub Repository search </h1>
+<div id="events">
+    <div>
+        <input type="text" @keyup="fetchEvents" v-model="msg" name="search-text">
+    </div>
+    <div class="card" v-for="item in events" track-by="id">
+        <a href="{{ item.owner.html_url}} "><img class="card-img-top" src="{{ item.owner.avatar_url }}" height="150"
+                                                 width="150" alt="Card image cap"></a>
+        <div class="card-block">
+            <h4 class="card-title">{{ item.name }}</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="{{ item.html_url }}" class="btn btn-primary">Visit Repo</a>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+<!-- JS -->
+<script src="node_modules/vue/dist/vue.js"></script>
+<script src="node_modules/vue-resource/dist/vue-resource.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
